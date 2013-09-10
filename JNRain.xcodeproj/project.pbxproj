@@ -298,6 +298,7 @@
 				D651E33C17DEF7B300785E8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
