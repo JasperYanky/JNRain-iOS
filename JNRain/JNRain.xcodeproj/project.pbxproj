@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D651E31B17DEF7B200785E8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D651E31A17DEF7B200785E8C /* UIKit.framework */; };
+		D651E31D17DEF7B200785E8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D651E31C17DEF7B200785E8C /* Foundation.framework */; };
+		D651E31F17DEF7B200785E8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D651E31E17DEF7B200785E8C /* CoreGraphics.framework */; };
+		D651E32517DEF7B200785E8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D651E32317DEF7B200785E8C /* InfoPlist.strings */; };
+		D651E32717DEF7B200785E8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D651E32617DEF7B200785E8C /* main.m */; };
+		D651E32B17DEF7B200785E8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D651E32A17DEF7B200785E8C /* AppDelegate.m */; };
+		D651E32D17DEF7B300785E8C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D651E32C17DEF7B300785E8C /* Default.png */; };
+		D651E32F17DEF7B300785E8C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D651E32E17DEF7B300785E8C /* Default@2x.png */; };
+		D651E33117DEF7B300785E8C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D651E33017DEF7B300785E8C /* Default-568h@2x.png */; };
+		D651E33417DEF7B300785E8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D651E33317DEF7B300785E8C /* ViewController.m */; };
+		D651E33717DEF7B300785E8C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D651E33517DEF7B300785E8C /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D651E31717DEF7B200785E8C /* JNRain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JNRain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D651E31A17DEF7B200785E8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D651E31C17DEF7B200785E8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D651E31E17DEF7B200785E8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D651E32217DEF7B200785E8C /* JNRain-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JNRain-Info.plist"; sourceTree = "<group>"; };
+		D651E32417DEF7B200785E8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D651E32617DEF7B200785E8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D651E32817DEF7B200785E8C /* JNRain-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JNRain-Prefix.pch"; sourceTree = "<group>"; };
+		D651E32917DEF7B200785E8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D651E32A17DEF7B200785E8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D651E32C17DEF7B300785E8C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D651E32E17DEF7B300785E8C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D651E33017DEF7B300785E8C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D651E33217DEF7B300785E8C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D651E33317DEF7B300785E8C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D651E33617DEF7B300785E8C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D651E31417DEF7B200785E8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D651E31B17DEF7B200785E8C /* UIKit.framework in Frameworks */,
+				D651E31D17DEF7B200785E8C /* Foundation.framework in Frameworks */,
+				D651E31F17DEF7B200785E8C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D651E30E17DEF7B200785E8C = {
+			isa = PBXGroup;
+			children = (
+				D651E32017DEF7B200785E8C /* JNRain */,
+				D651E31917DEF7B200785E8C /* Frameworks */,
+				D651E31817DEF7B200785E8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D651E31817DEF7B200785E8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D651E31717DEF7B200785E8C /* JNRain.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D651E31917DEF7B200785E8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D651E31A17DEF7B200785E8C /* UIKit.framework */,
+				D651E31C17DEF7B200785E8C /* Foundation.framework */,
+				D651E31E17DEF7B200785E8C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D651E32017DEF7B200785E8C /* JNRain */ = {
+			isa = PBXGroup;
+			children = (
+				D651E32917DEF7B200785E8C /* AppDelegate.h */,
+				D651E32A17DEF7B200785E8C /* AppDelegate.m */,
+				D651E33217DEF7B300785E8C /* ViewController.h */,
+				D651E33317DEF7B300785E8C /* ViewController.m */,
+				D651E33517DEF7B300785E8C /* ViewController.xib */,
+				D651E32117DEF7B200785E8C /* Supporting Files */,
+			);
+			path = JNRain;
+			sourceTree = "<group>";
+		};
+		D651E32117DEF7B200785E8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D651E32217DEF7B200785E8C /* JNRain-Info.plist */,
+				D651E32317DEF7B200785E8C /* InfoPlist.strings */,
+				D651E32617DEF7B200785E8C /* main.m */,
+				D651E32817DEF7B200785E8C /* JNRain-Prefix.pch */,
+				D651E32C17DEF7B300785E8C /* Default.png */,
+				D651E32E17DEF7B300785E8C /* Default@2x.png */,
+				D651E33017DEF7B300785E8C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D651E31617DEF7B200785E8C /* JNRain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D651E33A17DEF7B300785E8C /* Build configuration list for PBXNativeTarget "JNRain" */;
+			buildPhases = (
+				D651E31317DEF7B200785E8C /* Sources */,
+				D651E31417DEF7B200785E8C /* Frameworks */,
+				D651E31517DEF7B200785E8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JNRain;
+			productName = JNRain;
+			productReference = D651E31717DEF7B200785E8C /* JNRain.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D651E30F17DEF7B200785E8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = YinQiang;
+			};
+			buildConfigurationList = D651E31217DEF7B200785E8C /* Build configuration list for PBXProject "JNRain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D651E30E17DEF7B200785E8C;
+			productRefGroup = D651E31817DEF7B200785E8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D651E31617DEF7B200785E8C /* JNRain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D651E31517DEF7B200785E8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D651E32517DEF7B200785E8C /* InfoPlist.strings in Resources */,
+				D651E32D17DEF7B300785E8C /* Default.png in Resources */,
+				D651E32F17DEF7B300785E8C /* Default@2x.png in Resources */,
+				D651E33117DEF7B300785E8C /* Default-568h@2x.png in Resources */,
+				D651E33717DEF7B300785E8C /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D651E31317DEF7B200785E8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D651E32717DEF7B200785E8C /* main.m in Sources */,
+				D651E32B17DEF7B200785E8C /* AppDelegate.m in Sources */,
+				D651E33417DEF7B300785E8C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D651E32317DEF7B200785E8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D651E32417DEF7B200785E8C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D651E33517DEF7B300785E8C /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D651E33617DEF7B300785E8C /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D651E33817DEF7B300785E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D651E33917DEF7B300785E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D651E33B17DEF7B300785E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JNRain/JNRain-Prefix.pch";
+				INFOPLIST_FILE = "JNRain/JNRain-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D651E33C17DEF7B300785E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JNRain/JNRain-Prefix.pch";
+				INFOPLIST_FILE = "JNRain/JNRain-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D651E31217DEF7B200785E8C /* Build configuration list for PBXProject "JNRain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D651E33817DEF7B300785E8C /* Debug */,
+				D651E33917DEF7B300785E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D651E33A17DEF7B300785E8C /* Build configuration list for PBXNativeTarget "JNRain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D651E33B17DEF7B300785E8C /* Debug */,
+				D651E33C17DEF7B300785E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D651E30F17DEF7B200785E8C /* Project object */;
+}
