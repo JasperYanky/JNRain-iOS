@@ -7,32 +7,62 @@
 		<key>Pods-ASIHTTPRequest.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<key>Pods-JSONKit.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<key>Pods-Reachability.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>4</integer>
+		</dict>
+		<key>Pods-ViewDeck.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
 		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>273D85BC912B410B80900922</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>30D88BBD8AC34FE1B025EDF7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>316BC60FAF524ADC8A5540E1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>34E32C6B63FF4163A597ECFD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>384D1F114AB9440DBB783040</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>42B28E61ADDB406BA796CA09</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AC0AA8BDCA6E4D3E98D1B8DD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
